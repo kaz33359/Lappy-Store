@@ -231,6 +231,47 @@ $('.testimonial-active').slick({
 			}
 		},
 	]
+});$('.testimonial-four').slick({
+	dots: true,
+	infinite: false,
+	speed: 1000,
+	autoplay: true,
+	arrows: false,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				infinite: true,
+			}
+		},
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+		},
+		{
+			breakpoint: 767,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+			}
+		},
+		{
+			breakpoint: 575,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+			}
+		},
+	]
 });
 
 

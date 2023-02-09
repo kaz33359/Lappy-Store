@@ -125,6 +125,15 @@
     --youtube: #c4302b;
     --skype: #00aff0;
 }
+/* 
+@media screen and (max-width: 1200px) {
+	.aboutlappy p {
+	 text-align: none ;
+  }
+  } */
+
+
+
 body {
 	font-family: var(--tg-body-font-family);
 	font-weight: var(--tg-body-font-weight);
@@ -133,6 +142,7 @@ body {
 	color: var(--tg-body-font-color);
 	font-style: normal;
 }
+
 .black-background {
 	background: var(--tg-black);
 }
