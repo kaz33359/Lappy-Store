@@ -2339,6 +2339,12 @@ label {
 }
 .success-list .list-wrap li:nth-child(4) .progress .progress-bar {
 	background-color: var(--tg-yellow-three);
+}.success-list .list-wrap li:nth-child(5) .progress .progress-bar {
+	background-color: var(--tg-blue-two-three);
+}.success-list .list-wrap li:nth-child(6) .progress .progress-bar {
+	background-color: green;
+}.success-list .list-wrap li:nth-child(7) .progress .progress-bar {
+	background-color: red;
 }
 .success-img {
 	margin-left: 40px;
