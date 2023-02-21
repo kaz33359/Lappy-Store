@@ -6053,7 +6053,7 @@ label {
 .responsive {
 	width: 100%;
 	height: auto;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 	vertical-align: middle;
 }
 
@@ -6062,7 +6062,8 @@ label {
   max-width: 100%;
   position: relative;
   margin: auto;
-	padding: 10px;
+	/* padding: 10px; */
+	padding-top: 100px;
 }
 
 /* Next & previous buttons */
@@ -6072,7 +6073,7 @@ label {
   top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: 22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
