@@ -28,13 +28,13 @@
       <!-- banner-area -->
       <section class="banner-area banner-bg">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row">
             <div class="col-lg-6">
               <div class="banner-img wow fadeInLeft" data-wow-delay=".4s">
                 <img src="{{ asset('user/assets/img/lappy/lappy.png')}}" alt="" />
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" style="margin-top: 60px">
               <div class="banner-content">
                 <span class="sub-title wow fadeInUp" data-wow-delay=".2s"
                   >Amazing <strong style="color: red">Starts</strong> Here</span
