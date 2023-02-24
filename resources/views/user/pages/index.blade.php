@@ -17,8 +17,8 @@
         {{-- <div class="adImage1 fade1">
           <img src="{{ asset('user/assets/img/lappy/adBanner1.jpg')}}"  class="responsive" width="100%" alt="">
         </div> --}}
-          <a class="prev1" onclick="plusSlides(-1)">❮</a>
-          <a class="next1" onclick="plusSlides(1)">❯</a>
+          {{-- <a class="prev1" onclick="plusSlides(-1)">❮</a>
+          <a class="next1" onclick="plusSlides(1)">❯</a> --}}
       </div>
 <!-- Ad Banner -->
 
