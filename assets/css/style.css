@@ -356,10 +356,10 @@ label {
 	z-index: 1;
 }.btn2 {
 	user-select: none;
-	background: var(--tg-secondary-color) none repeat scroll 0 0;
+	background: white none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 20px;
-	color: var(--tg-white);
+	color: black;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
@@ -1872,7 +1872,7 @@ label {
 	z-index: 1;
 }
 .section-title .title span {
-	color: var(--tg-blue);
+	color: red;
 }
 .services-area-three .section-title.title-style-two .title {
 	margin-bottom: 20px;
@@ -3329,7 +3329,7 @@ label {
 .counter-item-three .content p span {
 	display: block;
 }
-.counter-item-wrap-three .list-wrap li:nth-child(2) .counter-item-three .content .count {
+/* .counter-item-wrap-three .list-wrap li:nth-child(2) .counter-item-three .content .count {
 	color: var(--tg-blue-two);
 }
 .counter-item-wrap-three .list-wrap li:nth-child(3) .counter-item-three .content .count {
@@ -3337,7 +3337,7 @@ label {
 }
 .counter-item-wrap-three .list-wrap li:nth-child(4) .counter-item-three .content .count {
 	color: var(--tg-indigo);
-}
+} */
 .counter-item-wrap-three .list-wrap li:nth-child(2) .counter-item-three .icon {
 	right: 0;
 	left: auto;
@@ -3406,7 +3406,7 @@ label {
 	20. Project
 ===============================*/
 .project-area {
-	background: var(--tg-section-background);
+	background: black;
 	padding: 140px 0;
 	border-radius: 150px 0 0 0;
 	overflow: hidden;
@@ -4543,7 +4543,7 @@ label {
 	z-index: 1;
 }
 .consultation-area-two .consultation-content > p {
-	width: 76%;
+	width: 100%;
 }
 .consultation-area-two .consultation-list ul li {
 	display: block;
