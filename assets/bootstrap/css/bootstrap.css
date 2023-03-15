@@ -54,7 +54,7 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: bolder;
 }
 dfn {
   font-style: italic;
@@ -1224,7 +1224,7 @@ h2,
 h3,
 .h3 {
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 h1 small,
 .h1 small,
@@ -1288,7 +1288,7 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 .lead {
   margin-bottom: 20px;
