@@ -60,8 +60,8 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -1644,6 +1644,12 @@ body::before {
   content: "lg";
 }
 
+@media only screen and (max-width: 600px) {
+	footer {
+		margin-top: 60px;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   body::before {
     content: "md";
@@ -1761,12 +1767,17 @@ body::before {
   }
 
 
+  h4 {
+    font-size: 18px;
+  }
+
+
   #outer-wrapper #inner-wrapper #table-wrapper {
     padding: 20px 0;
   }
 
   h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h2 {
@@ -1775,7 +1786,8 @@ body::before {
   }
 
   p {
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 20px;
   }
 
   .side-panel {
