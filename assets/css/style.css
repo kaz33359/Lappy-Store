@@ -125,13 +125,14 @@
     --youtube: #c4302b;
     --skype: #00aff0;
 }
-/* 
-@media screen and (max-width: 1200px) {
-	.aboutlappy p {
-	 text-align: none ;
+
+  @media screen and (max-width: 991px) {
+
+	.responsive2 {
+		width: 100%;
+		height: auto;
+	  }
   }
-  } */
-  
 
 
 
@@ -4521,6 +4522,8 @@ label {
 	width: 100%;
 	height: 70px;
 }
+
+
 .consultation-form-wrap .btn {
 	width: 100%;
 }
