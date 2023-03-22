@@ -133,6 +133,7 @@
 		height: auto;
 	  }
   }
+  
 
 
 
@@ -5687,7 +5688,7 @@ label {
 	border-radius: 20px;
 	width: 610px;
 	padding: 45px 40px;
-	position: absolute;
+	/* position: absolute; */
 	right: 0;
 	top: 0;
 	background: var(--tg-white);
