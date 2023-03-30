@@ -1253,7 +1253,7 @@ label {
 	background-image: url(../img/banner/banner_bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding: 220px 0 120px;
+	padding:110px 0 120px;
 	position: relative;
 	z-index: 1;
 }
