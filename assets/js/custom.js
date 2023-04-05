@@ -7,7 +7,7 @@ form.addEventListener('submit', function(event){
     // let subject = document.getElementById("subject").value;
     let message = document.getElementById("message").value;
 
-    window.location.href = `mailto:info@lappystore.ae?subject=Enquiry from ${name} ${email}  &body= ${message}`;
+    window.location.href = `mailto:info@lappystore.com?subject=Enquiry from ${name} ${email}  &body= ${message}`;
 
    contact();
 })
