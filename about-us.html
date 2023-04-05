@@ -306,12 +306,14 @@
       </div>
     </header> 
     <!-- header-area-end -->
+
     <div class="slideshow-container1">
       <div class="adImage1 fade1">
         <img src="assets/img/lappy/web8.jpg" class="responsive" width="100%" alt="">
       </div>
-
-        
+      <div class="adImage1 fade1">
+        <img src="assets/img/lappy/WEB9.jpg"  class="responsive" width="100%" alt="">
+      </div>
         <a class="prev1" onclick="plusSlides(-1)">❮</a>
         <a class="next1" onclick="plusSlides(1)">❯</a>
     </div>
@@ -1306,6 +1308,48 @@
       </div>
     </footer>
     <!-- footer-area-end -->
+    <script>
+      // let slideIndex = 1;
+      // showSlides(slideIndex);
+
+      // function plusSlides(n) {
+      //   showSlides(slideIndex += n);
+      // }
+
+      // function currentSlide(n) {
+      //   showSlides(slideIndex = n);
+      // }
+
+      // function showSlides(n) {
+      //   let i;
+      //   let slides = document.getElementsByClassName("adImage1");
+      //   let dots = document.getElementsByClassName("dot");
+      //   if (n > slides.length) {slideIndex = 1}    
+      //   if (n < 1) {slideIndex = slides.length}
+      //   for (i = 0; i < slides.length; i++) {
+      //     slides[i].style.display = "none";  
+      //   }
+      //   for (i = 0; i < dots.length; i++) {
+      //     dots[i].className = dots[i].className.replace(" active", "");
+      //   }
+      //   slides[slideIndex-1].style.display = "block";  
+      //   dots[slideIndex-1].className += " active";
+      // }
+      var myIndex = 0;
+      carousel();
+              
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("adImage1");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+      }
+  </script>
 
     <!-- JS here -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
