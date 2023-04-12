@@ -5923,8 +5923,8 @@ label {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	border: 3px solid var(--tg-border-color);
 	border-radius: 50%;
   }
@@ -5935,8 +5935,8 @@ label {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 	border-top: 3px solid var(--tg-primary-color);
 	border-radius: 100%;
 	animation: loaderspin 1.8s infinite ease-in-out;
@@ -5952,7 +5952,7 @@ label {
   }
   #preloader .loader .loader-icon img {
 	animation: loaderpulse alternate 900ms infinite;
-	width: 300px;
+	width: 200px;
   }
 @keyframes loaderspin {
   0% {
