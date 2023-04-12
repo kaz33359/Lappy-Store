@@ -5923,8 +5923,8 @@ label {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border: 3px solid var(--tg-border-color);
   border-radius: 50%;
 }
@@ -5935,10 +5935,10 @@ label {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-top: 3px solid var(--tg-primary-color);
-  border-radius: 50%;
+  border-radius: 100%;
   animation: loaderspin 1.8s infinite ease-in-out;
   -webkit-animation: loaderspin 1.8s infinite ease-in-out;
 }
@@ -5947,12 +5947,12 @@ label {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80px;
+  width: 100px;
   text-align: center;
 }
 #preloader .loader .loader-icon img {
   animation: loaderpulse alternate 900ms infinite;
-  width: 40px;
+  width: 100px;
 }
 @keyframes loaderspin {
   0% {
